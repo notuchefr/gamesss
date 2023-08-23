@@ -50,6 +50,7 @@ function disableButtonsWenGameIsWon(player){
     }
     display.textContent = player + " won the game";
 }
+// this shows when the game is a draw
 function checkDraw (){
     for (let button of buttons){
         if (button.textContent === ""){
